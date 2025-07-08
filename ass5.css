@@ -1,0 +1,1441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.header-container{
+    width: 420px;
+    background-color: rgba(89, 6, 243, 0.829);
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.header-list-container{
+    display: flex;
+    display: none;
+}
+.header-list-container li{
+    list-style: none;
+    margin: 0 0 0 10px;
+}
+.header-list-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+.header-list-container i{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+.header-logo{
+    margin: 0 0 0 150px;
+
+}
+.page1{
+    height: 407px;
+    width: 420px;
+}
+.pg1-1st-banner{
+    width: 420px;
+    height: 200px;
+}
+.pg1-2nd-banner{
+    width: 420px;
+    height: 200px;
+}
+.pg1-layer{
+    width: 420px;
+    height: 73%;
+    background-color:rgba(69, 6, 243, 0.555) ;
+    position: absolute;
+}
+.pg1-h1{
+    position: relative;
+    color: white;
+    margin: -67% 0 0 7%;
+    z-index: 5;
+}
+.pg1-p{
+    position: relative;
+    color: white;
+    margin: 1% 0 0 7%;
+    z-index: 5;
+}
+.pg1-button button{
+    border: none;
+    background-color: #fff;
+    position: relative;
+    padding: 3%;
+    color: rgba(69, 6, 243, 0.692);
+    margin: 4% 0 0 7%;
+    font-weight: 550;
+}
+
+.page2-h2{
+    text-align: center;
+    margin-top: 12%;
+}
+.page2-p{
+    text-align: center;
+    margin-top: 2%;
+    color: grey;
+}
+.Consultancy{
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 0px 0px 1px rgb(177, 176, 176);
+    text-align: center;
+    height: 280px;
+    width: 300px;
+    margin:5% 0 0 15%;
+}
+.what-we-do-img{
+    margin-top: 10%;
+}
+.what-we-do-h3{
+    margin-top: 10%;
+}
+.what-we-do-p{
+    color: grey;
+    margin:10% 2% 0 5%;
+}
+.page3{
+    width: 420px;
+    height: 600px;
+    margin: 2% 0 0 0;
+     background-color: aliceblue;
+}
+.page3 h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.page3 p{
+    margin: 5% 0% 0 7%;
+    color: grey;
+}
+.page3 a{
+    text-decoration: none;
+    background-color: rgba(69, 6, 243, 0.692);
+    padding: 4%;
+    position: absolute;
+    margin: 5% 0 0 7%;
+    color: white;
+    font-weight: 550;
+
+}
+.pg3-img img{
+    margin: 30% 0 0 18%;
+    width: 250px;
+    height: 250px;
+}
+.pg3-img-border{
+    height: 250px;
+    width: 250px;
+    border: 1px solid grey;
+    margin: -55% 0 0 13%;
+}
+.page4-h2{
+    text-align: center;
+    margin-top: 12%;
+}
+.page4-p{
+    text-align: center;
+    margin-top: 2%;
+    color: grey;
+}
+.Planning{
+   
+    text-align: center;
+    height: 270px;
+    width: 300px;
+    margin:5% 0 0 15%;
+}
+.our-services-img{
+    margin-top: 10%;
+}
+.our-services-h3{
+    margin-top: 10%;
+}
+.our-services-p{
+    color: grey;
+    margin:8% 2% 5% 5%;
+}
+.our-services-a{
+    text-decoration: none;
+}
+.page5{
+    margin: 7% 0 0 0;
+}
+.counter img{
+   width: 420px;
+   height: 200px;
+}
+.counter-layer{
+    width: 420px;
+    height: 200px;
+    background-color: rgba(50, 7, 240, 0.61) ;
+    position: absolute;
+}
+.counter-div{
+    position: relative;
+    margin: -35% 0 0 5%;
+    color: white;
+}
+.counter-p{
+    font-size:20px ;
+}
+.counter-div-2{
+    margin: -25% 0 0 33%;
+}
+.counter-div-3{
+    margin: -25% 0 0 61%;
+}
+.counter-div-4{
+    margin: -25% 0 0 83%;
+}
+.page6{
+    text-align: center;
+}
+.pg6-h3{
+    margin: 20% 0 3% -0;
+}
+.pg6-p{
+    color: grey;
+}
+.pg6-img1{
+    width: 350px;
+    height: 300px;
+    margin-top: 5%;
+}
+
+.pg6-btn{
+    text-decoration: none;
+    background-color: rgb(121, 90, 232);
+    padding: 2% 7% 2% 7%;
+    position: absolute;
+    margin: 2% 0 0 -12%;
+    color: white;
+    font-weight: 500;
+}
+.page7{
+    width: 460px;
+    height: 1670px;
+    margin: 15% 0 0 0;
+    padding: 4% 0 0 0 ;
+    background-color: rgba(69, 6, 243, 0.692);
+}
+.pg7-head h1{
+    text-align: center;
+    color: white;
+}
+.pg7-head p{
+    text-align: center;
+    margin: 3.5% 0 0 0;
+    color: white;
+}
+.pg7-img-div img{
+    align-items: center;
+    margin: 8% 0 0 21%;
+}
+.pg7-name-div{
+    background-color: rgba(83, 43, 226, 0.52);
+    width: 270px;
+    text-align: center;
+    padding: 5%;
+    line-height: 25px;
+    color: white;
+    position: relative;
+    margin: -21.5% 0 0 21%;
+}
+ 
+.page8{
+    width: 425px;
+    height: 2220px;
+}
+.pg8-head h1{
+    text-align: center;
+    margin: 9% 0 0 0;
+}
+.pg8-head p{
+    text-align: center;
+    margin: 5% 2% 0 3%;
+}
+.price-div-container{
+    width: 270px;
+    height: 460px;
+    margin: 15% 0 0 15%;
+}
+.price-head{
+    width: 270px;
+    height: 150px;
+    background-color: rgba(69, 6, 243, 0.692);
+    margin: -5% 0 0 0;
+    padding: 2% 0 0 0;
+}
+.price-head-h2,.price-head-p,.price-head-p1{
+    text-align: center;
+    color: white;
+    margin: 5% 0 0 0;
+}
+.price-head-p{
+    font-size: 27px;
+}
+.price-head-p1{
+    font-size: 27px;
+}
+.price-body{
+    background-color:white;
+    height: 230px;
+}
+.price-body-p,.price-body-p1,.price-body-p2,.price-body-p3,.price-body-p4{
+    text-align: center;
+    margin: 10% 0 0 0;
+}
+.price-btn button{
+    border: none;
+    padding: 7% 25% 7% 25%;
+    margin: 5% 0 0 8%;
+    background-color: rgba(69, 6, 243, 0.692);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+}
+.page9{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 1%;
+}
+.pg9-h3-1{
+    padding-top: 5%;
+}
+.pg9-img{
+    border-radius: 50%;
+    margin: 8% 0 8% 0;
+    border: 2px solid rgba(69, 6, 243, 0.692);
+}
+.pg9-p{
+    color: grey;
+}
+.pg9-h3{
+    color: rgba(69, 6, 243, 0.692);
+    margin: 7% 0 3% 0;
+}
+.pg9-p1{
+    color: rgb(99, 98, 98);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 45%;
+    width: 40px;
+    padding-bottom: 5%;
+}
+    
+
+.slide{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 2px;
+    border: 1px solid grey;
+}
+.voilet{
+    background-color: rgba(69, 6, 243, 0.692);
+}
+.page10{
+    width: 425px;
+    height: 600px;
+    margin-top: -5%;
+}
+.client-container{
+    width: 425px;
+    height: 540px;
+    background-color: rgba(69, 6, 243, 0.692);
+}
+
+.client-logo img{
+    margin: 5% 0 0 30%;
+}
+.page11{
+    padding-bottom: 5%;
+}
+.pg11-h3{
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+.pg11-p{
+    text-align: center;
+    margin: 0 5% 0 5%;
+}
+.pg11-img{
+    box-shadow: 0 0 12px 0 rgb(0,0,0,0.2);
+    width: 300px;
+    height:400px ;
+    margin:5% 0 2% 15%;
+}
+.pg11-img-img1{
+    width: 300px;
+    height: 300px;
+    margin: 0.2% 0 0 0.5%;
+    
+}
+.pg11-img-div{
+    margin: 3% 5% 0 7%;
+    font-weight: 520;
+}
+.pg11-img-p{
+    margin: 5% 0 0 5%;
+    font-size: 12px;
+}
+.span-p{
+    color: rgba(69, 6, 243, 0.692);
+}
+.pg11-btn{
+    text-decoration: none;
+    background-color: rgba(69, 6, 243, 0.692);
+    padding: 2% 7% 2% 7%;
+    position: absolute;
+    margin: 2% 0 0 30%;
+    color: white;
+    font-weight: 500;
+}
+.page12{
+    width: 425px;
+    height: 1090px;
+    background-image: url(img/footer/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 460px 1300px;
+}
+.pg12-layer{
+    width: 425px;
+    height: 1090px;
+    background-color:rgba(69, 6, 243, 0.521) ;
+    position: absolute;
+}
+.contact-us-head h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 5;
+    margin: 10% 0 0 0;
+    padding: 2%;
+}
+.contact-us-head p{
+    text-align: center;
+    margin: 5% 4% 0 4%;
+    color: white;
+    position: relative;
+    z-index: 5;
+    line-height: 1;
+}
+.contact-info{
+    width: 300px;
+    height: 350px;
+    margin: 0% 0 0 15%;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 20;
+}
+.contact-info-h3,.contact-info-p,.contact-info-p1,.contact-info-p2,.contact-info-hh3{
+    margin: 12% 0 0 0;
+}
+.contact-icon{
+    margin: 6% 0 0 0;
+}
+.contact-icon i{
+    margin: 2%;
+}
+.form{
+    width: 350px;
+    height: 470px;
+    margin: 5% 0 0 10%;
+}
+.legend{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    font-weight: 550;
+}
+.msg-box input{
+    position: relative;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 4% 0 0 5%;
+    text-align: center;
+}
+.form-msg input{
+    width: 322px;
+    height: 200px;
+    font-size: large;
+}
+.fieldset{
+    position: relative;
+    height: 450px;
+    color: white;
+}
+.form-btn button{
+    border: none;
+    padding: 4% 7% 4% 7%;
+    margin: 4% 0 0 57%;
+    font-size: 14px;
+    background-color: rgba(69, 6, 243, 0.692);
+    color: white;
+    font-weight: 550;
+}
+
+.page13{
+    width: 425px;
+    height: 200px;
+    background-color:rgba(69, 6, 243, 0.692);
+}
+.pg13-h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 2%;
+}
+
+.start-project-btn button{
+    border: none;
+    padding: 4% 9% 4% 9%;
+    font: 20px;
+    background-color: rgba(69, 6, 243, 0.692);
+    color: white;
+    font-weight:550 ;
+    border: 1px solid white;
+    margin: 8% 0 0 32%;
+}
+.footer{
+    background-color: rgb(1, 1, 3);
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1000px;
+}
+.fr-h1{
+    color: white;
+    margin: 0 0 0 10%;
+    padding-top: 3%;
+}
+.fr-p{
+    color: grey;
+    margin: 5% 15% 0 10%;
+}
+.fr-img{
+    background-color: rgb(209, 207, 207);
+    border-radius: 3px;
+    padding: 2% 2.5% 2% 2.5%;
+    margin: 5% 0 0 15%;   
+}
+.fr-img1{
+    margin-left: 3%;
+}
+.UL-h3{
+    color: white;
+    margin: 8%  0 5% 15%;
+}
+.UL-p{
+    color: grey;
+    margin:4% 0 0 15%;
+}
+.news-h3{
+    color: white;
+    margin: 10% 0 0 15%;
+}
+hr{
+    margin: 0 10% 0 15%;
+}
+.news-p{
+    margin: 5% 10% 0 15%;
+}
+.date{
+    margin: 5% 0 5% 15%;
+}
+.newsletter-h3{
+    margin: 10% 0 0 15%;  
+}
+.newsletter-p{
+    margin: 5% 10% 0 15%;
+}
+.email input{
+    border: none;
+    color: white;
+    border: 1px solid grey;
+    margin: 5% 0 0 15%;
+    padding: 3% 0 3% 5%;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.go-btn{
+    border: none;
+    border: 1px solid rgba(69, 6, 243, 0.692);
+    padding: 3%;
+    background-color: rgba(69, 6, 243, 0.692);
+    margin-left: -5%;
+}
+
+    
+ @media (min-width:768px){
+    
+  .header-container{
+    width: 766px;
+   }
+   .header-logo img{
+     margin:0 0 0 165px ;
+   }
+    .page1{
+        width: 766px;
+        height: 510px;
+    }
+    .pg1-1st-banner{
+        width: 766px;
+        height: 250px;
+    }
+    .pg1-2nd-banner{
+        width: 766px;
+        height: 250px;
+    }
+    .pg1-layer{
+        width: 766px;
+        height: 505px;
+    }
+    .pg1-h1{
+        margin: -44% 0 0 7%;
+    }
+    .pg1-button{
+        margin:  0 0 0 10px;
+    }
+    .page2-h2{
+        margin-top: 5%;
+    }
+    .page2-p{
+        margin: 2% 2% 0 2%;
+    }
+    .what-we-do{
+        display: flex;
+    }
+    .Consultancy{
+        margin: 2% 2% 0 2%;
+    }
+    .what-we-do-img{
+        margin-top: 16%;
+    }
+
+    .page3{
+        width: 766px;
+        height: 800px;
+    }
+    .about-us h1{
+        padding-top: 2%;
+    }
+    .about-us a{
+        padding: 1.2% 2.5% 1% 2.5%;
+    }
+    .pg3-img img{
+        margin: 15% 0 0 23%;
+        width: 500px;
+        height: 380px;
+    }
+    .pg3-img-border{
+        height: 380px;
+        width: 500px;
+        margin: -43% 0 0 18%;
+    }
+
+    .page4-h2{
+        margin-top: 8%;
+    }
+    .page4-p{
+        margin: 2% 2% 0 2%;
+    }
+    .our-services{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+    .Planning{
+        margin: 2% 2% 0 2%;
+    }
+
+    
+    .counter img{
+        width: 766px;
+        }
+        .counter-layer{
+            width: 766px;
+        }
+        .counter-div{
+            margin: -19.2% 0 0 1%;
+            display: flex;
+        }
+        .counter-p{
+            margin: 1% 0 0 2%;
+        }
+        .counter-p1{
+            margin: 5% 0 0 -7%;
+            font-size: 18px;
+            font-weight: 550;
+        }
+        .counter-div-2{
+            margin: -7% 0 0 29%;
+        }
+        .counter-div-3{
+            margin: -9% 0 0 58%;
+        }
+        .count-p3{
+            margin: 4% 0 0 2%;
+        }
+        .count3-p{
+            position: relative;
+           margin: 12% 0 0 -17%;
+        }
+        .counter-div-4{
+            margin: -6.5% 0 0 80%;
+        }
+        .count-p4{
+            margin: 0 0 0 10%;
+        }
+        .count4-p{
+            position: absolute;
+            margin: 13% 0 0 43%;
+        }
+        .pg6-h3{
+            margin-left: -62%;
+        }
+        .pg6-p{
+            margin-left: -40%;
+        }
+        .pro1-img{
+            width: 250px;
+            height: 400px;
+            margin-left: 1%;
+        }
+        .pro2-img{
+            width: 235px;
+            height: 200px;
+        }
+        .pro3-img{
+            width: 235px;
+            height: 193px;
+            position: absolute;
+            margin: 32% 0 0 4%;
+        }
+        .pro4-img{
+            width: 235px;
+            height: 193px;
+            position: absolute;
+            margin: 32% 0 0 67.5%;
+        }
+        .pg6-img{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .page7{
+            width: 760px;
+            height: 900px;
+        }
+        .pg7-img-container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .pg7-img-div img{
+            margin: 10% 0 0 0;
+        }
+        .pg7-name-div{
+            margin: -30% 0 0 0 ;
+        }
+        
+        .page8{
+            width: 760px;
+            height: 1130px;
+        }
+        .price-div-container{
+            margin: 5% 0 0 12%;
+        }
+        .pg8-pricing-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .page9{
+            margin-top: -2%;
+        }
+
+        .pg9-p{
+            margin: -3% 3% -5% 3%;
+        }
+        .pg9-h3-1{
+            padding-top: 5%;
+        }
+        .slider{
+            margin:2% 0 0 48%;
+            padding-bottom: 5%;
+        }
+        .page10{
+            margin-top: -1%;
+            width: 760px;
+            height: 170px;
+        }
+        .client-container{
+            width: 760px;
+            height: 150px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .client-logo img{
+            width: 120px;
+            margin: 30% 0 0 0;
+        }
+        .parent-img{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .pg11-img{
+            width: 230px;
+            height: 350px;
+            margin: 5% 0 0 2%;
+            
+        }
+        .pg11-img-img1{
+            width: 230px;
+            height: 230px;
+        }
+        .pg11-img-div{
+            margin: 3% 0 0 5%;
+            font-weight: 300;
+        }
+        .pg11-img-p{
+            margin: 5% 0 0 3%;
+            font-size: 12px;
+        }
+        .pg11-btn{
+            padding: 1% 3% 1% 3%;
+            margin-left: 42%;
+        }
+        .page12{
+            width: 760px;
+            height: 700px;
+            background-size: 760px 700px;
+        }
+        .pg12-layer{
+            width: 760px;
+            height: 700px;
+        }
+        .contact-info{
+            margin: 5% 0 0 0 ;
+        }
+        .form{
+            margin: 5% 0 0 0;
+        }
+        .contact-info-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .page13{
+            width: 760px;
+            height: 150px;
+        }
+        .start-project-btn button{
+            padding: 1% 2.5% .8% 2.5%;
+            margin: 4% 0 0 40%;
+        }
+        .footer{
+            height: 570px;
+            margin-top: -6%;
+        }
+        .fr-h1{
+            margin: 5% 0 0 5%;
+        }
+        .fr-p{
+            margin: 2% 60% 0 5%;
+        }
+        .fr-icon{
+            font-size: 1px;
+            margin:-2% 0 0 5%;
+        }
+        .fr-img{
+            padding: 1% 1.5% 1% 1.5%;
+            margin-left: 1.5%;
+        }
+        .useful-links{
+            margin: -26% 0 0 50%;
+        }
+        .News{
+            margin: 2% 50% 0 -3%;
+        }
+        .newsletter{
+            margin: -36% 0 0 50%;
+ 
+        }
+    
+ }
+ @media (min-width:1024px){
+    .header{
+        display: inline;
+    }
+    .header-container{
+        width: 100%;
+    }
+    .header-list-container{
+        margin: -17px 0 0 36%;
+        display: inline;
+        display: flex;
+    }
+    .header-logo{
+        margin: 0 0 0 -110px;
+    }
+    .page1{
+        width: 1024px;
+    }
+    .pg1-h1{
+        margin: -32% 0 0 7%;
+    }
+    .pg1-p{
+        margin:  1% 45% 0 7%;
+        font-size: 20px;
+    }
+    .pg1-1st-banner{
+        width: 1024px;
+    }
+    .pg1-2nd-banner{
+        width: 1024px;
+    }
+    .pg1-layer{
+        width: 1024px;
+    }
+    .pg1-button button{
+        font-size: 17px;
+        font-weight: 550;
+    }
+
+    .page3{
+        width: 1024px;
+        height: 500px;
+    }
+    .about-us h1{
+        text-align: left;
+        position: absolute;
+        margin: 12% 0 0 5%;
+    }
+    .about-us p{
+        position: absolute;
+        margin: 20% 60% 0 5%;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .about-us a{
+        margin: 37% 0 0 5%;
+        padding: 2%;
+    }
+    .pg3-img img{
+        margin: 5% 0 0 49%;
+        width: 480px;
+        height: 380px;
+    }
+    .pg3-img-border{
+        height: 380px;
+        width: 480px;
+        margin: -33% 0 0 45%;
+    }
+    .counter img{
+        width: 1024px;
+    }
+    .counter-layer{
+        width: 1024px;
+    }
+    .counter-div{
+        margin: -14% 0 0 3%;
+    }
+    .counter-p1{
+        margin: 4% 0 0 -5%;
+    }
+    .counter-div-2{
+        margin: -6% 0 0 27%;
+    }
+    .count2-p{
+        margin: 5% 0 0 -5%;
+
+    }
+    .counter-div-3{
+        margin: -6.3% 0 0 53%;
+    }
+    .count3-p{
+        position: relative;
+        margin: 10% 0 0 -9%;
+    }
+    .counter-div-4{
+        margin: -5.3% 0 0 75%;
+    }
+    .count4-p{
+        position: absolute;
+        margin: 13% 0 0 25%;
+    }
+    .pg6-h3{
+        font-weight: 700;
+        font-size: 30px;
+        margin: 15% 0 0 -60%;
+    }
+    .pg6-p{
+        font-size: 20px;
+        margin: 2% 0 0 -45%;
+    }
+    .pro1-img{
+        width: 300px;
+        height: 408px;
+    }
+    .pro2-img{
+        width: 300px;
+        margin-left:-7%;
+    }
+    .pro3-img{
+        width: 300px;
+        margin:26% 0 0 1%;
+    }
+    .pro4-img{
+        width: 300px;
+        margin:26% 0 0 62.2%;
+    }
+    .pg6-btn{
+        margin-left: -9%;
+    }
+    .page7{
+        width: 1024px;
+        height: 470px;
+    }
+    .pg7-img-container{
+       
+        flex-wrap: nowrap;
+    }
+    .pg7-img-div img{
+        margin: 15% 0 0 0;
+        width: 200px;
+    }
+    .pg7-name-div{
+        width: 200px;
+        margin: -36.7% 0 0 0 ;
+    }
+    .page8{
+        width: 1024px;
+        height: 670px;
+    }
+    .price-div-container{
+        margin: 5% 0 0 0%;
+    }
+    .pg8-pricing-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .price-div-container{
+        width: 230px;
+    }
+    .price-head{
+        width: 230px;
+    }
+    .page9{
+        margin-top: -3%;
+    }
+    .pg9-h3-1{
+        padding-top: 5%;
+    }
+    .pg9-img{
+        margin: 5% 0 5% 0;
+    }
+    .pg9-p{
+        margin: 1% 10% -2% 10%;
+    }
+    .slider{
+        margin:2% 0 3% 48%;
+        padding-bottom: 5%;
+    }
+    .page10{
+        width: 1024px;
+        height: 170px;
+        margin-top: -3%;
+    }
+    .client-container{
+        width: 1024px;
+    }
+     
+    .pg11-img{
+        width: 300px;
+        height: 340px;
+        margin: 5% 0 0 2%;
+        
+    }
+    .pg11-img-img1{
+        width: 300px;
+        height: 230px;
+    }
+    .pg11-img-div{
+        margin: 3% 0 0 5%;
+    }
+    .pg11-img-p{
+        font-size: 14px;
+    }
+    .page12{
+        width: 1024px;
+        height: 700px;
+        background-size: 1024px 700px;
+    }
+    .pg12-layer{
+        width: 1024px;
+        height: 700px;
+    }
+    .page13{
+        width: 1024px;
+        height: 150px;
+    }
+    .start-project-btn button{
+        margin: 2% 0 0 42%;
+    }
+    .footer{
+        height: 300px;
+        margin-top: -10%;
+        }
+
+     .fr-logo{
+        margin: 10% 30% 0 0;
+     }
+     .useful-links{
+        margin: -22% 0 0 18%;
+     } 
+     .UL-h3{
+        margin-bottom: 2%;
+     } 
+     .UL-p{
+        margin-top: 1%;
+     }
+     .News{
+        margin: -21.5% 28% 0 42%;
+     } 
+     .newsletter{
+        margin: -23% 5% 0 68%;
+
+     }
+}
+
+@media (min-width: 1200px) {
+   .header{
+        display: inline;
+    }
+    .header-container{
+        width: 100%;
+    }
+    .header-list-container{
+        margin: -18px 0 0 53%;
+        display: inline;
+        display: flex;
+    }
+    .header-logo{
+        margin: 0 0 0 -7%;
+    }
+    .page1{
+        width: 100%;
+    }
+    .pg1-h1{
+        margin: -32% 0 0 7%;
+    }
+    .pg1-p{
+        margin:  2% 45% 0 7%;
+    }
+    .pg1-1st-banner{
+        width: 100%;
+        height: 330px;
+        
+    }
+    .pg1-2nd-banner{
+       width: 100%;
+       height: 330px;
+       
+    }
+    .pg1-layer{
+        width: 100%;
+        height: 103.8%;
+        
+    }
+    .pg1-button button{
+        font-size: 17px;
+        font-weight: 550;
+        padding: 1.5%;
+    }
+    .page2-h2{
+      margin-top: 13%;
+    }
+    .Consultancy{
+       margin: 2% 0 0 8%; 
+    }
+
+    .page3{
+        width: 100%;
+        height: 500px;
+       
+    }
+    .about-us h1{
+        margin: 10% 0 0 5%;
+    }
+    .about-us p{
+        margin: 17% 60% 0 5%;
+    }
+    .about-us a{
+        margin: 28% 0 0 5%;
+        padding: 1.2% 1.8% 1% 1.8%;
+    }
+    .pg3-img img{
+        margin: 2% 0 0 49%;
+    }
+    .pg3-img-border{
+        margin: -25% 0 0 47%;
+    }
+    .page4{
+        margin-top: -5%;
+    }
+
+    .page5{
+        
+        width: 100%;
+
+    }
+    .counter img{
+        width: 100%;
+    }
+    .counter-layer{
+        width: 100%;
+    }
+    .counter-div{
+        margin: -10.5% 0 0 10%;
+    }
+    .counter-div-2{
+        margin: -5% 0 0 32%;
+    }
+    .counter-div-3{
+        margin: -6% 0 0 55%;
+    }
+    .count-p3{
+        margin: 2% 0 0 2%;
+    }
+    .counter-div-4{
+        margin: -4.5% 0 0 75%;
+    }
+    .count-p4{
+      margin: 1% 0 0 5%;
+    }
+    .count4-p{
+        position: absolute;
+        margin: 10% 0 0 21%;
+    }
+
+    .page6{
+        margin-top: -3%;
+    }
+    .pg6-h3{
+        font-size: 29px;
+        margin: 13% 0 0 -56%;
+    }
+    .pg6-p{
+        font-size: 19px;
+        margin: 2% 0 0 -45%;
+    }
+    .pro1-img{
+        width: 330px;
+        height: 408px;
+    }
+    .pro3-img{
+        margin:22% 0 0 3.5%;
+    }
+    .pro4-img{
+        margin:22% 0 0 62.8%;
+    }
+    .pg6-btn{
+       margin:  5% 0 0 0;
+        padding: 1% 2% .8% 2%;
+    }
+
+    .page7{
+        width: 100%;
+    }
+    .pg7-img-container{ 
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    .pg7-img-div img{
+        margin: 15% 0 0 3%;
+        width: 200px;
+    }
+    .pg7-name-div{
+        width: 200px;
+        margin: -36.7% 0 0 3% ;
+    }
+    .page8{
+        width: 100%;
+        height: 670px;
+        margin-top: -5%;
+    }
+    .price-div-container{
+        margin: 5% 0 0 0%;
+    }
+    .pg8-pricing-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .price-div-container{
+        width: 230px;
+    }
+    .price-head{
+        width: 230px;
+    }
+    .page9{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 1%;
+    }
+    .pg9-h3-1{
+        margin: 3% 0 0 0;
+    }
+    .pg9-img{
+        margin: 2% 0 5% 1%;
+    }
+    .pg9-p{
+        margin: -1% 20% 0 20%;
+    }
+    .pg9-h3{
+       margin: 2% 0 3% 2.5%;
+    }
+    .pg9-p1{
+        margin: -2% 0 3% 2.5%;
+
+    }
+    .slider{
+        margin:1% 0 5% 50%;
+    }
+    .page10{
+        width: 100%;
+        height: 180px;
+    }
+    .client-container{
+        width: 100%;
+    }
+    
+    .pg11-btn{
+       margin: 3% 0 0 45%;
+    }
+    .page12{
+        width: 100%;
+        background-size: 100% 700px;
+        margin-top: -5%;
+    }
+    .pg12-layer{
+        width: 100%;
+        height: 700px;
+    }
+    .contact-us-head h1{
+    margin: 10% 0 0 0;
+    padding-top: 2%;
+   }
+   .contact-us-head p{
+    margin: 1% 20% 0 20%;
+    line-height: 1;
+   }
+    .page13{
+        width: 100%;
+    }
+    .pg13-h1{
+        padding-top: 2%;
+        font-size: 25px;
+    }
+    .start-project-btn button{
+        margin: 2% 0 0 44%;
+        padding: 1% 1.5% .8% 1.5%;
+    }
+    .footer{
+        height: 300px;
+        }
+
+     .fr-logo{
+        margin: 10% 30% 0 0;
+     }
+     .useful-links{
+        margin: -18.5% 0 0 20%;
+     } 
+     .UL-h3{
+        margin-bottom: 2%;
+     } 
+     .UL-p{
+        margin-top: 1%;
+     }
+     .News{
+        margin: -18.5% 28% 0 42%;
+     } 
+     .newsletter{
+        margin: -20% 5% 0 73%;
+
+     } 
+}
+
+/* Reusable button hover animation */
+button:hover,
+.pg6-btn:hover,
+.pg11-btn:hover,
+.start-project-btn button:hover {
+    background-color: white;
+    color: rgba(69, 6, 243, 0.692);
+    border: 1px solid rgba(69, 6, 243, 0.692);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.header-list-container a:hover,
+.header-list-container i:hover {
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+
+.Consultancy:hover,
+.Planning:hover,
+.price-div-container:hover {
+    box-shadow: 0 4px 15px rgba(69, 6, 243, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.pg9-img:hover,
+.pg6-img1:hover,
+.pg11-img-img1:hover {
+    transform: scale(1.08);
+    transition: transform 0.4s ease;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+}
+
+
+
