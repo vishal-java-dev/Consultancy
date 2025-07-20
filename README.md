@@ -44,7 +44,7 @@ Special thanks to my mentor and institute for helping me build a strong foundati
 
 ## 📬 Contact Me
 
-- 📧 Email: [vishalyadav0311@gmail.com  
+- 📧 Email: [mr.vishalyadav0311@gmail.com  
 - 💼 LinkedIn: (https://linkedin.com/in/vyadav03)
 
 ---
